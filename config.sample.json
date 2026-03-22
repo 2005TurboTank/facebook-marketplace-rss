@@ -5,15 +5,13 @@
     "refresh_interval_minutes": 15,
     "log_filename": "fb-rssfeed.log",
     "url_filters": {
-        "https://www.facebook.com/marketplace/page1": {
-            "level1": ["tv"],
-            "level2": ["smart"],
-            "level3": ["55\"", "55 inch"]
-        },
-        "https://www.facebook.com/marketplace/page2": {
-            "level1": ["dishwasher"],
-            "level2": ["kitchenaid", "samsung"]
-        },
-        "https://www.facebook.com/marketplace/page2": {}
+        "https://www.facebook.com/marketplace/category/search/?query=LegO&http_ref=eyJ0cyI6MTc3NDE2MTk5ODAwMCwiciI6IiJ9": {
+            "level1": ["lego"],
+
+        }
+    
+            
+        }
+        
     }
 }
