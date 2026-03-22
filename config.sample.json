@@ -5,7 +5,7 @@
   "refresh_interval_minutes": 15,
   "log_filename": "fb-rssfeed.log",
   "url_filters": {
-    "YOUR_FACEBOOK_MARKETPLACE_URL_HERE": {
+    "https://www.facebook.com/marketplace/australia/search?query=lego&sortBy=creation_time_descend&daysSinceListed=1": {
       "level1": ["lego"]
     }
   }
