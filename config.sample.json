@@ -1,17 +1,12 @@
 {
-    "server_ip": "0.0.0.0",
-    "server_port": "5000", 
-    "currency": "$",
-    "refresh_interval_minutes": 15,
-    "log_filename": "fb-rssfeed.log",
-    "url_filters": {
-        "https://www.facebook.com/marketplace/category/search/?query=LegO&http_ref=eyJ0cyI6MTc3NDE2MTk5ODAwMCwiciI6IiJ9": {
-            "level1": ["lego"],
-
-        }
-    
-            
-        }
-        
+  "server_ip": "0.0.0.0",
+  "server_port": "5000",
+  "currency": "A$",
+  "refresh_interval_minutes": 15,
+  "log_filename": "fb-rssfeed.log",
+  "url_filters": {
+    "YOUR_FACEBOOK_MARKETPLACE_URL_HERE": {
+      "level1": ["lego"]
     }
+  }
 }
